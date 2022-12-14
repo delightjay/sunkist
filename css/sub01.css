@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{letter-spacing:-0.2px;}
+section .section1{background:url(../img/widesub.png) no-repeat center center; width:100%; height:240px;}
+
+section .cate{width:100%; height:47px;}
+.cate>.wrap{width:1200px; margin:0 auto;}
+.cate>.wrap p{float:right; font-size:12px; line-height:47px; color:#7d7d7d; padding-right:10px;}
+.cate>.wrap b{font-weight:normal; color:#3e3e3e;}
+
+.section2{width:100%;}
+.section2 .wrap{width:1200px; margin:0 auto; text-align:center;}
+.section2 .wrap>p{font-size:20px; color:#6c6c6c; margin-top:55px;}
+.section2 .wrap>h1{font-size:48px;}
+.section2 .wrap>hr{border:0.5px solid #d2d2d2; width:1180px; margin:38px auto 0; margin-bottom:48px;}
+.section2 .wrap>h3{font-size:36px;}
+.section2 .produce{width:780px; margin:0 auto; overflow:hidden; margin-top:110px; margin-bottom:40px;}
+.section2 .produce>li{float:left; width:220px; height:250px; margin:0 20px 10px; text-align:center;}
+.section2 .produce>li>p{margin-top:10px;}
+
+.section2 .quality{width:1200px; text-align:center; overflow:hidden; margin:0 auto;}
+.section2 .quality>li{margin:0 10px 100px; float:left; height:280px;}
+.section2 .quality>li>.title{color:#d96456; transition:all 0.2s;}
+.section2 .quality>li:hover .title{color:#ff8e78;}
+.section2 .quality>li:hover img{opacity:0.7;}

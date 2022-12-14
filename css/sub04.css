@@ -1,0 +1,36 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{letter-spacing:-0.2px;}
+section .section1{background:url(../img/widesub4.png) no-repeat center center; width:100%; height:240px;}
+
+section .cate{width:100%; height:47px;}
+.cate>.wrap{width:1200px; margin:0 auto;}
+.cate>.wrap p{float:right; font-size:12px; line-height:47px; color:#7d7d7d; padding-right:10px;}
+.cate>.wrap b{font-weight:normal; color:#3e3e3e;}
+
+.section2{width:100%;}
+.section2 .wrap{width:1200px; margin:0 auto; text-align:center;}
+.section2 .wrap>p{font-size:20px; color:#6c6c6c; margin-top:55px;}
+.section2 .wrap>h1{font-size:48px;}
+.section2 .wrap>hr{border:0.5px solid #d2d2d2; width:1180px; margin:38px auto 76px;}
+.section2 .wrap>h3{font-size:36px;}
+
+.section2 table{border-collapse:collapse; margin:0 auto; width:1180px; border-top:1px solid #d2d2d2; border-bottom:1px solid #d2d2d2; font-size:14px; margin-bottom:54px;}
+table a:hover{text-decoration:underline;}
+table td{padding:20px 0;}
+table td.left{text-align:left; padding-left:37px;}
+table tr{border-top:1px solid #d2d2d2;}
+table tr:nth-child(1){background-color:#f7f7f7; font-weight:500;}
+
+.section2 .pagi{overflow:hidden; margin:0 auto; width:153px;}
+.section2 .pagi img{display:block; margin:0 auto; padding:9px 0;}
+.section2 .pagi a{display:block; width:9px; border:1px solid #d2d2d2; padding:0 10px; float:left; margin:0 10px 50px;}
+.section2 .pagi a.active{width:9px; line-height:27px; background-color:#f17050; color:#fff; border:1px solid #f17050; font-size:14px;}
+.section2 .pagi a.active:hover{background-color:#e14f2a; border-color:#e14f2a;}
+.section2 .form{margin-bottom:50px; width:595px; margin:0 auto 75px; overflow:hidden;}
+.section2 select{width:117px; font-size:13px; height:36px; padding:0 8px; box-sizing:border-box; float:left; outline:none; border-color:#d2d2d2; margin-right:8px; font-family:'Noto Sans KR', sans-serif;}
+.section2 input{float:left; width:385px; height:36px; padding:11px 8px; outline:none; border:1px solid #d2d2d2; box-sizing:border-box; margin-right:8px; font-size:13px;}
+
+.form a{width:71px; padding:7px 0; background-color:#f17050; border:1px solid #f17050; color:#fff; float:left; font-size:14px;}
+.form a:hover{background-color:#e14f2a; border-color:#e14f2a;}

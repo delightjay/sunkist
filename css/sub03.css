@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{letter-spacing:-0.2px;}
+section .section1{background:url(../img/widesub3.png) no-repeat center center; width:100%; height:240px;}
+
+section .cate{width:100%; height:47px;}
+.cate>.wrap{width:1200px; margin:0 auto;}
+.cate>.wrap p{float:right; font-size:12px; line-height:47px; color:#7d7d7d; padding-right:10px;}
+.cate>.wrap b{font-weight:normal; color:#3e3e3e;}
+
+.section2{width:100%;}
+.section2 .wrap{width:1200px; margin:0 auto; text-align:center;}
+.section2 .wrap>p{font-size:20px; color:#6c6c6c; margin-top:55px;}
+.section2 .wrap>h1{font-size:48px;}
+.section2 .wrap>hr{border:0.5px solid #d2d2d2; width:1180px; margin:38px auto 76px;}
+.section2 .wrap>h3{font-size:36px;}
+
+.section2 ul{width:1200px; overflow:hidden; margin-bottom:40px;}
+.section2 ul li{float:left; margin:0 10px 26px; width:280px; font-size:18px; border-bottom:1px solid #4a4a4a;}
+.section2 img{transition:all 0.3s;}
+.section2 ul li:hover img{opacity:0.7;}
+.section2 ul li:hover p{color:#fd9309;}
+.section2 ul li p{padding:20px 0;}
+.section2 ul li img{display:block;}
+
+.section2 span a{display:block; width:125px; padding:7px 0; background-color:#ff965c;color:#fff; margin:0 auto 80px;}
+.section2 span a:hover{background-color:#ff7428;}
+.section2 i{font-size:14px;}

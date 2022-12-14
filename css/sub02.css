@@ -1,0 +1,41 @@
+@charset "utf-8";
+/* CSS Document */
+
+section{letter-spacing:-0.2px;}
+
+
+/*section 시작*/
+section .section1{background:url(../img/widesub2.png) no-repeat center center; width:100%; height:240px;}
+
+section .cate{width:100%; height:47px;}
+.cate>.wrap{width:1200px; margin:0 auto;}
+.cate>.wrap p{float:right; font-size:12px; line-height:47px; color:#7d7d7d; padding-right:10px;}
+.cate>.wrap b{font-weight:normal; color:#3e3e3e;}
+
+/*section2*/
+.section2{width:100%;}
+.section2 .wrap{width:1200px; margin:0 auto; text-align:center;}
+.section2 .wrap>p{font-size:20px; color:#6c6c6c; margin-top:55px;}
+.section2 .wrap>h1{font-size:48px;}
+.section2 .wrap>hr{border:0.5px solid #d2d2d2; width:1180px; margin:38px auto 76px;}
+.section2 .wrap>h3{font-size:36px;}
+
+.section2 ul{width:1200px; overflow:hidden; margin-bottom:75px;}
+.section2 ul li{float:left; margin:0 10px 35px; width:278px; border:1px solid #d2d2d2; font-size:18px;}
+.section2 ul li button{padding:5px; width:153px; margin:20px 0 30px; border-radius:40px; border:1px solid #fe7e00; color:#fe7e00; font-weight:bold; background-color:#fff; font-family:"Noto Sans CJK KR Light"; font-size:18px; outline:none; cursor:pointer;}
+.section2 ul li button:hover{background-color:#fe7e00; color:#fff;}
+
+/*팝업창*/
+.modal{position:fixed; z-index:1; padding-top:230px; left:0; top:0; width:100%; height:100%; overflow:auto; background-color:rgba(0,0,0,0.4); display:none;}
+/*content*/
+.content{background:url(../img/sub2-1-1-bg.png) no-repeat center center; height:470px; margin:0 auto; padding:26px; width:1000px; font-size:24px; text-align:left; box-sizing:border-box; }
+.content img{float:left; margin:40px 40px 40px 20px;}
+.content h3, .content h4, .content h1{font-weight:normal; letter-spacing:-2px;}
+.content h3{margin-top:73px; font-size:36px; color:#94ad00; line-height:36px;}
+.content h1{font-size:60px; color:#fe7d11; line-height:60px; font-weight:500;}
+.content h4{font-size:24px; color:#fe9e11; margin-top:40px;}
+.content p{font-size:16px; color:4e4e4e; font-weight:normal; margin-top:40px;}
+
+/*close button*/
+.close{color:#aaa; float:right; font-size:20px; font-weight:bold; margin-top:-5px;}
+.close:hover{color:#000; cursor:pointer;}

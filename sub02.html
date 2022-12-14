@@ -1,0 +1,189 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sunkist</title>
+<script src="js/jquery-3.3.1.min.js"></script>
+<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+<link href="css/sub02.css" rel="stylesheet">
+<link href="css/header.css" rel="stylesheet">
+<link href="css/footer.css" rel="stylesheet">
+
+<script>
+$(document).ready(function(e) {
+    var modal = $(".modal").get(0); 
+	$(".orange").on("click",function(){
+		$(".modal").css({"display":"block","opacity":"0"}).animate({"opacity":"1"},400);
+	});
+	$(".close").on("click",function(){
+		$(".modal").css({"display":"none"});
+	});
+	$(window).on("click",function(e){
+		if(e.target == modal){
+			$(".modal").css({"display":"none"});
+		}
+	});
+});
+</script>
+</head>
+
+<body>
+	<header>
+    	<div class="wrap">
+        	<nav>
+                <a href="index.html"><img src="img/logo.png"></a>
+                
+                <div class="search">
+                <input type="text" placeholder="검색">
+                 <a href="#"><i class="fas fa-search"></i></a>
+                </div>
+                <ul>
+                    <li><a href="sub01.html">썬키스트</a></li>
+                    <li><a href="sub02.html">제품소개</a></li>
+                    <li><a href="sub03.html">레시피</a></li>
+                    <li><a href="sub04.html">뉴스 &sdot; 소식</a></li>
+                </ul>
+                
+            </nav>
+        </div>
+    </header><!--header 끝-->
+    
+    <section>
+    	<div class="section1">
+        </div>
+        
+        <div class="cate">
+        	<div class="wrap">
+            	<p><a href="index.html">홈</a> &gt; <a href="sub02.html">제품소개</a> &gt; <a href="sub02.html"><b>신선과일</b></a></p>
+            </div>
+        </div>
+        
+        <div class="section2">
+        	<div class="wrap">
+            	<p>한국인의 식탁을 풍요롭게</p>
+                <h1>신선과일</h1>
+                
+                <hr>
+                
+                <ul>
+                	<li>
+                        <img src="img/sub2-1.png">
+                        <p>썬키스트 오렌지</p>
+                        <button class="orange">VIEW</button>
+                    </li>
+                    <li>
+                        <img src="img/sub2-2.png">
+                        <p>썬키스트 레몬</p>
+                        <button class="lemon">VIEW</button>
+                    </li>
+                    <li>
+                        <img src="img/sub2-3.png">
+                        <p>썬키스트 라임</p>
+                        <button>VIEW</button>
+                    </li>
+                    <li>
+                        <img src="img/sub2-4.png">
+                        <p>썬키스트 자몽</p>
+                        <button>VIEW</button>
+                    </li>
+                    <li>
+                        <img src="img/sub2-5.png">
+                        <p>썬키스트 탄제린</p>
+                        <button>VIEW</button>
+                    </li>
+                    <li>
+                        <img src="img/sub2-6.png">
+                        <p>썬키스트 만다린</p>
+                        <button>VIEW</button>
+                    </li>
+                    <li>
+                        <img src="img/sub2-7.png">
+                        <p>썬키스트 베르가못</p>
+                       <button>VIEW</button>
+                    </li>
+                    <li>
+                        <img src="img/sub2-8.png">
+                        <p>썬키스트 포멜로</p>
+                        <button>VIEW</button>
+                    </li>
+                </ul>
+                <div class="modal">
+                    <div class="content">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-1.png">
+                        <h3>Sunkist</h3>
+                        <h1>ORANGE</h1>
+                        <h4>썬키스트 오렌지</h4>
+                        <p>엄격한 품질관리를 기본으로 하여 캘리포니아에 위치한 전용<br>농장에서1년 내내 생산, 공급되고 있습니다.</p>
+                    </div>
+                   <!-- <div class="content2">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-2.png">
+                        <h3>Sunkist</h3>
+                        <h1>LEMON</h1>
+                        <h4>썬키스트 레몬</h4>
+                        <p>미국 캘리포니아와 칠레에서 수확된 레몬을 연중 공급하고 있습니다.</p>
+                    </div>
+                    <div class="content3">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-1.png">
+                        <h3>Sunkist</h3>
+                        <h1>ORANGE</h1>
+                        <h4>썬키스트 오렌지</h4>
+                        <p>엄격한 품질관리를 기본으로 하여 캘리포니아에 위치한 전용 농장에서<br>1년 내내 생산, 공급되고 있습니다.</p>
+                    </div>
+                    <div class="content4">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-1.png">
+                        <h3>Sunkist</h3>
+                        <h1>ORANGE</h1>
+                        <h4>썬키스트 오렌지</h4>
+                        <p>엄격한 품질관리를 기본으로 하여 캘리포니아에 위치한 전용 농장에서<br>1년 내내 생산, 공급되고 있습니다.</p>
+                    </div>
+                    <div class="content5">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-1.png">
+                        <h3>Sunkist</h3>
+                        <h1>ORANGE</h1>
+                        <h4>썬키스트 오렌지</h4>
+                        <p>엄격한 품질관리를 기본으로 하여 캘리포니아에 위치한 전용 농장에서<br>1년 내내 생산, 공급되고 있습니다.</p>
+                    </div>
+                    <div class="content6">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-1.png">
+                        <h3>Sunkist</h3>
+                        <h1>ORANGE</h1>
+                        <h4>썬키스트 오렌지</h4>
+                        <p>엄격한 품질관리를 기본으로 하여 캘리포니아에 위치한 전용 농장에서<br>1년 내내 생산, 공급되고 있습니다.</p>
+                    </div>
+                    <div class="content7">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-1.png">
+                        <h3>Sunkist</h3>
+                        <h1>ORANGE</h1>
+                        <h4>썬키스트 오렌지</h4>
+                        <p>엄격한 품질관리를 기본으로 하여 캘리포니아에 위치한 전용 농장에서<br>1년 내내 생산, 공급되고 있습니다.</p>
+                    </div>
+                    <div class="content8">
+                        <span class="close">&times;</span>
+                        <img src="img/sub2-1-1.png">
+                        <h3>Sunkist</h3>
+                        <h1>ORANGE</h1>
+                        <h4>썬키스트 오렌지</h4>
+                        <p>엄격한 품질관리를 기본으로 하여 캘리포니아에 위치한 전용 농장에서<br>1년 내내 생산, 공급되고 있습니다.</p>
+                    </div>-->
+             	</div>
+             </div><!--wrap END-->
+        </div><!--section2 END-->
+    </section>
+    
+    <div class="logo">
+        <a href="#"><img src="img/graylogo.png"></a>
+    </div>
+    <footer>
+    	<p>Copyright &copy; 2022 By Sunkist, S’alternative, The Power Orange, <br>
+The Ultimate Diet Drink, Zebra, Sunkist Smiles, Smiles Sunkist Growers Inc., USA. <br>
+<small>Lil Snappers는 Stemilt Growers 유한회사의 상표이며 특허 하에 사용됩니다.</small></p>
+    </footer>
+</body>
+</html>
